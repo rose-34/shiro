@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1> 
+     //授權攔截 跳转到未授权页面
+       	filterChainDefinitionMap.put("/add", "perms[user:add]");
+     //未授权页面
+		shiroFilterFactoryBean.setUnauthorizedUrl("/unauthor"); 
+</h1>
+
+</body>
+</html>
